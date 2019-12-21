@@ -1,0 +1,7 @@
+***********COMANDOS***************
+npm init --yes
+git init
+git commit
+npm install johnny-five		instalar johnny-five
+
+Links: http://johnny-five.io/
