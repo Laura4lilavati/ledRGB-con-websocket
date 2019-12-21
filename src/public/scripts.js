@@ -2,7 +2,7 @@ let connection = new WebSocket('ws://' + location.hostname + ':3001/', [
       'arduino'
     ])
     connection.onopen = function() {
-      connection.send('Connect ' + new Date())
+      //connection.send('Connect ' + new Date())
     }
     connection.onerror = function(error) {
       console.log('WebSocket Error ', error)
